@@ -26,12 +26,3 @@ console.log(jobs); // module.exports */
     console.log(num / 3) // 3
 })() */
 //console.log(p1) // ReferenceError
-
-
-//% Process
-
-    process.argv.forEach(
-        function (val, index, array) {
-            console.log(index + ' : ' + val)
-        }
-    );
